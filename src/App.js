@@ -114,6 +114,12 @@ const Header = styled.div`
   font-size: 25px;
   font-weight: bold;
   box-shadow: 0 3px 6px 0 #555;
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+  z-index: 100;
 `;
 const SearchBox = styled.div`
   display: flex;
